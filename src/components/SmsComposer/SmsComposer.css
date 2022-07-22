@@ -1,0 +1,56 @@
+.smsRow{
+    margin:0 0 12px;
+    display: flex;
+    flex-direction: column;
+}
+.smsRow button{
+    border-radius: 8px !important;
+    font-size: 19px !important;
+    font-weight: 400;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.smsRow button:disabled{
+    color: #fff !important;
+    background: #B9B9B9 !important;
+}
+.smsArea input,
+.smsArea textarea{
+    border:1px solid #EBEBEB;
+    border-radius: 4px;
+    height:40px;
+}
+.smsArea textarea{
+    height: 280px !important;
+    resize: none;
+}
+.smsArea label{
+    display: block;
+    color:#172B4D;
+    font-weight: 500;
+    margin:0 0 8px;
+}
+.tagsDropdown .ant-select-item-option {
+    background: none !important;
+    text-align: left;
+    padding: 10px 20px !important;
+}
+.popupNotice p {
+    margin: 0;
+}
+.popupNotice {
+    background: #FFE5E5;
+    color: #8492A6;
+    font-size: 16px;
+    padding: 7px 14px;
+    margin-bottom: 15px;
+}
+.popupNotice a {
+    color: #0057FF !important;
+    text-decoration: underline;
+}
+
+#smsReceiver {
+    width:100%;
+    position: relative;
+}
